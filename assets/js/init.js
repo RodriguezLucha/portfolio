@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
       "assets/img/bg/wallpaper.jpg",
       "assets/img/bg/wallpaper2.png",
       "assets/img/bg/wallpaper3.jpg"
-  ], {duration: 5000, fade: 1000});
+  ], {duration: 500, fade: 1000});
 });
 
 /*-----------------------------------------------------------------------------------*/
@@ -28,10 +28,12 @@ jQuery(document).ready(function($){
   jQuery('.navbar-default, #search-wrapper').addClass('opaqued');
   if(jQuery('body').hasClass('single-project')) {
     var windowsHeight = jQuery(window).height() - 168;
+    windowsHeight = 303;
     jQuery('#headerwrap').css('height', windowsHeight + 'px');
     jQuery('#headerwrap').css('min-height', windowsHeight + 'px');
   } else {
     var windowsHeight = jQuery(window).height();
+    windowsHeight = 303;
     jQuery('#headerwrap').css('height', windowsHeight + 'px');
     jQuery('#headerwrap').css('min-height', windowsHeight + 'px');    
   }
