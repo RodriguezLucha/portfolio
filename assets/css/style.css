@@ -420,7 +420,8 @@ a:after {
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 650px;
+    min-height: 100px;
+    max-height: 100px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -2789,7 +2790,7 @@ img.mfp-img {
 
 @media all and (min-width: 769px) {
     #headerwrap, .fullheight {
-        min-height: 100vh
+        min-height: 10vh
     }
     .page-section {
         padding-top: 90px;
@@ -2799,7 +2800,7 @@ img.mfp-img {
 
 @media screen and (max-width:768px) {
     #headerwrap {
-        min-height: 560px;
+        min-height: 10vh;
     }
     #headerwrap h1 {
         font-size: 80px;
@@ -2857,7 +2858,7 @@ img.mfp-img {
         padding: 8px 14px;
     }
     .fullheight, #headerwrap {
-        min-height: 100vh;
+        min-height: 10vh;
     }
 }
 
