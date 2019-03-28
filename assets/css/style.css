@@ -2875,5 +2875,7 @@ img.mfp-img {
 
 .self-photo img {
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
